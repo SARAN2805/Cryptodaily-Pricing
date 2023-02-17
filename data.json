@@ -1,0 +1,402 @@
+[
+    {
+        "Name": "Bitcoin1BTC",
+        "Price": "$16,842.25"
+    },
+    {
+        "Name": "Ethereum2ETH",
+        "Price": "$1,216.78"
+    },
+    {
+        "Name": "Tether3USDT",
+        "Price": "$0.9999"
+    },
+    {
+        "Name": "USD Coin4USDC",
+        "Price": "$1.00"
+    },
+    {
+        "Name": "BNB5BNB",
+        "Price": "$242.64"
+    },
+    {
+        "Name": "XRP6XRP",
+        "Price": "$0.359"
+    },
+    {
+        "Name": "Binance USD7BUSD",
+        "Price": "$1.00"
+    },
+    {
+        "Name": "Dogecoin8DOGE",
+        "Price": "$0.07571"
+    },
+    {
+        "Name": "Cardano9ADA",
+        "Price": "$0.2613"
+    },
+    {
+        "Name": "Polygon10MATIC",
+        "Price": "$0.8016"
+    },
+    {
+        "Name": "DaiDAI",
+        "Price": "$1.00"
+    },
+    {
+        "Name": "PolkadotDOT",
+        "Price": "$4.52"
+    },
+    {
+        "Name": "LitecoinLTC",
+        "Price": "$70.30"
+    },
+    {
+        "Name": "TRONTRX",
+        "Price": "$0.05"
+    },
+    {
+        "Name": "Shiba InuSHIB",
+        "Price": "$0.00"
+    },
+    {
+        "Name": "SolanaSOL",
+        "Price": "$11.20"
+    },
+    {
+        "Name": "UniswapUNI",
+        "Price": "$5.19"
+    },
+    {
+        "Name": "AvalancheAVAX",
+        "Price": "$11.62"
+    },
+    {
+        "Name": "UNUS SED LEOLEO",
+        "Price": "$3.59"
+    },
+    {
+        "Name": "Wrapped BitcoinWBTC",
+        "Price": "$16801.73"
+    },
+    {
+        "Name": "ChainlinkLINK",
+        "Price": "$5.97"
+    },
+    {
+        "Name": "ToncoinTON",
+        "Price": "$2.37"
+    },
+    {
+        "Name": "MoneroXMR",
+        "Price": "$146.39"
+    },
+    {
+        "Name": "CosmosATOM",
+        "Price": "$9.07"
+    },
+    {
+        "Name": "Ethereum ClassicETC",
+        "Price": "$16.11"
+    },
+    {
+        "Name": "Bitcoin CashBCH",
+        "Price": "$102.73"
+    },
+    {
+        "Name": "StellarXLM",
+        "Price": "$0.07"
+    },
+    {
+        "Name": "CronosCRO",
+        "Price": "$0.06"
+    },
+    {
+        "Name": "OKBOKB",
+        "Price": "$23.07"
+    },
+    {
+        "Name": "ApeCoinAPE",
+        "Price": "$3.58"
+    },
+    {
+        "Name": "QuantQNT",
+        "Price": "$107.02"
+    },
+    {
+        "Name": "AlgorandALGO",
+        "Price": "$0.17"
+    },
+    {
+        "Name": "VeChainVET",
+        "Price": "$0.02"
+    },
+    {
+        "Name": "NEAR ProtocolNEAR",
+        "Price": "$1.35"
+    },
+    {
+        "Name": "HederaHBAR",
+        "Price": "$0.04"
+    },
+    {
+        "Name": "Internet ComputerICP",
+        "Price": "$3.88"
+    },
+    {
+        "Name": "FilecoinFIL",
+        "Price": "$2.98"
+    },
+    {
+        "Name": "EOSEOS",
+        "Price": "$0.88"
+    },
+    {
+        "Name": "Pax DollarUSDP",
+        "Price": "$1.00"
+    },
+    {
+        "Name": "Terra ClassicLUNC",
+        "Price": "$0.00"
+    },
+    {
+        "Name": "Bitcoin SVBSV",
+        "Price": "$43.41"
+    },
+    {
+        "Name": "Huobi TokenHT",
+        "Price": "$5.42"
+    },
+    {
+        "Name": "MultiversX (Elrond)EGLD",
+        "Price": "$33.43"
+    },
+    {
+        "Name": "FlowFLOW",
+        "Price": "$0.76"
+    },
+    {
+        "Name": "AaveAAVE",
+        "Price": "$55.45"
+    },
+    {
+        "Name": "Theta NetworkTHETA",
+        "Price": "$0.76"
+    },
+    {
+        "Name": "TrueUSDTUSD",
+        "Price": "$1.00"
+    },
+    {
+        "Name": "TezosXTZ",
+        "Price": "$0.79"
+    },
+    {
+        "Name": "USDDUSDD",
+        "Price": "$0.98"
+    },
+    {
+        "Name": "Axie InfinityAXS",
+        "Price": "$6.79"
+    },
+    {
+        "Name": "ChilizCHZ",
+        "Price": "$0.11"
+    },
+    {
+        "Name": "The SandboxSAND",
+        "Price": "$0.44"
+    },
+    {
+        "Name": "ZcashZEC",
+        "Price": "$40.03"
+    },
+    {
+        "Name": "KuCoin TokenKCS",
+        "Price": "$6.50"
+    },
+    {
+        "Name": "DecentralandMANA",
+        "Price": "$0.33"
+    },
+    {
+        "Name": "Gemini DollarGUSD",
+        "Price": "$0.99"
+    },
+    {
+        "Name": "BitTorrent-NewBTT",
+        "Price": "$0.00"
+    },
+    {
+        "Name": "BitDAOBIT",
+        "Price": "$0.28"
+    },
+    {
+        "Name": "FantomFTM",
+        "Price": "$0.20"
+    },
+    {
+        "Name": "Trust Wallet TokenTWT",
+        "Price": "$1.34"
+    },
+    {
+        "Name": "PancakeSwapCAKE",
+        "Price": "$3.30"
+    },
+    {
+        "Name": "MakerMKR",
+        "Price": "$544.53"
+    },
+    {
+        "Name": "The GraphGRT",
+        "Price": "$0.06"
+    },
+    {
+        "Name": "KlaytnKLAY",
+        "Price": "$0.16"
+    },
+    {
+        "Name": "DashDASH",
+        "Price": "$45.07"
+    },
+    {
+        "Name": "PAX GoldPAXG",
+        "Price": "$1801.14"
+    },
+    {
+        "Name": "IOTAMIOTA",
+        "Price": "$0.17"
+    },
+    {
+        "Name": "AptosAPT",
+        "Price": "$3.60"
+    },
+    {
+        "Name": "eCashXEC",
+        "Price": "$0.00"
+    },
+    {
+        "Name": "THORChainRUNE",
+        "Price": "$1.37"
+    },
+    {
+        "Name": "NeoNEO",
+        "Price": "$6.19"
+    },
+    {
+        "Name": "Fei USDFEI",
+        "Price": "$0.99"
+    },
+    {
+        "Name": "GMXGMX",
+        "Price": "$45.10"
+    },
+    {
+        "Name": "GateTokenGT",
+        "Price": "$3.45"
+    },
+    {
+        "Name": "MinaMINA",
+        "Price": "$0.47"
+    },
+    {
+        "Name": "OsmosisOSMO",
+        "Price": "$0.74"
+    },
+    {
+        "Name": "NexoNEXO",
+        "Price": "$0.65"
+    },
+    {
+        "Name": "SynthetixSNX",
+        "Price": "$1.45"
+    },
+    {
+        "Name": "Neutrino USDUSDN",
+        "Price": "$0.52"
+    },
+    {
+        "Name": "Frax ShareFXS",
+        "Price": "$4.74"
+    },
+    {
+        "Name": "ChainXCN",
+        "Price": "$0.02"
+    },
+    {
+        "Name": "XDC NetworkXDC",
+        "Price": "$0.03"
+    },
+    {
+        "Name": "Lido DAOLDO",
+        "Price": "$1.04"
+    },
+    {
+        "Name": "EthereumPoWETHW",
+        "Price": "$2.97"
+    },
+    {
+        "Name": "ImmutableXIMX",
+        "Price": "$0.43"
+    },
+    {
+        "Name": "1inch Network1INCH",
+        "Price": "$0.40"
+    },
+    {
+        "Name": "StacksSTX",
+        "Price": "$0.23"
+    },
+    {
+        "Name": "CasperCSPR",
+        "Price": "$0.03"
+    },
+    {
+        "Name": "DecredDCR",
+        "Price": "$19.42"
+    },
+    {
+        "Name": "Curve DAO TokenCRV",
+        "Price": "$0.53"
+    },
+    {
+        "Name": "Basic Attention TokenBAT",
+        "Price": "$0.19"
+    },
+    {
+        "Name": "ZilliqaZIL",
+        "Price": "$0.02"
+    },
+    {
+        "Name": "LoopringLRC",
+        "Price": "$0.21"
+    },
+    {
+        "Name": "Enjin CoinENJ",
+        "Price": "$0.26"
+    },
+    {
+        "Name": "NEMXEM",
+        "Price": "$0.03"
+    },
+    {
+        "Name": "Convex FinanceCVX",
+        "Price": "$3.59"
+    },
+    {
+        "Name": "BalancerBAL",
+        "Price": "$5.54"
+    },
+    {
+        "Name": "HoloHOT",
+        "Price": "$0.00"
+    },
+    {
+        "Name": "HeliumHNT",
+        "Price": "$1.86"
+    },
+    {
+        "Name": "KavaKAVA",
+        "Price": "$0.69"
+    }
+]

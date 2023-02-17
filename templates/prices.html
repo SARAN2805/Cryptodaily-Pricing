@@ -3,16 +3,20 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Daily Fuel Prices in India</title>
+    <title style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Crypto</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src='main.js'></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-   
-
-
 </head>
+
+
+
+<script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+<link href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css" rel="stylesheet" type="text/css" />
+
+
 <style>
   /* .search-table-outter { overflow-x: scroll; }
 th, td { min-width: 200px; } */
@@ -25,7 +29,7 @@ th, td { min-width: 200px; } */
     <!-- topnav -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> Daily Fuel Prices In India</a>
+          <a class="navbar-brand" href="#" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> CRYPTO CURRENCY PRICES IN INDIA</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -35,8 +39,6 @@ th, td { min-width: 200px; } */
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="prices.html"  style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Pricing</a>
               </li>
-          
-              
             </ul>
           </div>
         </div>
@@ -57,28 +59,22 @@ th, td { min-width: 200px; } */
      padding-right: 7%;
    }
    
-</style>
-      <h4 style="font-weight: bold;">Indian Petrol Price (live Updation):</h4>
-      
-      <p>The Petrol prices in All are based on dynamic fuel pricing system and hence revised on a regular basis. The petrol rates are revised at 6 am every day. This dynamic pricing ensures that even a minute’s variation in global oil prices can be transmitted to fuel users and dealers. The final petrol rate is decided by adding payment to the refineries, excise duty, dealer commission and Value-Added Tax or VAT. After adding these, the retail selling price of petrol gets nearly doubled. Several factors determine the price of petrol – like rupee to US dollar exchange rate, cost of crude oil, global cues, demand for fuel, among others. When international crude oil prices gain, fuel price in India moves higher.</p>
-    
-      
-      
+</style> 
       <div class="main">
       <!-- <div class="search-table-outter"> -->
       <table  class="table">
         <thead>
           <tr>
-              <th>States/Cities</th>
+              <th>Name</th>
               <th>Prices</th>
               
           </tr>
       </thead>
       <tbody>
-        {%for i in states%}      
+        {%for i in Crypto%}      
         <tr>
           <td>           
-              {{i["State"]}}
+              {{i["Name"]}}
               </td>
 
 
@@ -96,44 +92,8 @@ th, td { min-width: 200px; } */
     </tbody>
       </table>
     </div>
-    
-<br>
+  <div class="ct-chart"></div>
 
-<p class="qwer">As On June 2017, Petrol Prices In India Are Revised Daily, And ThIs Is Called The Dynamic Fuel Price Method. Petrol And Diesel Rates Are Revised At 06:00 A.m. Every Day. Before This Prices Were Revised Every Fortnight. Various Factors Impact The Price Of Fuel. These Include Rupee To US Dollar Exchange Rate, Cost Of Crude Oil, Global Cues, Demand For Fuel, And So On. When International Crude Oil Prices Gain, Prices In India Move Higher. Price Of Fuel Includes Excise Duty, Value Added Tax (VAT), And Dealer Commission. VAT Varies From State To State. After Adding Excise Duty, Dealer Commission And VAT, The Retail Selling Price Of The Petrol Gets Nearly Doubled.</p>
-
-<br>
-<footer class="bg-dark text-center text-lg-start">
-  <!-- Grid container -->
-  <div class="container p-4">
-    <!--Grid row-->
-    <div class="row">
-      <!--Grid column-->
-      <div class="col-lg-12 col-md-12 mb-4 mb-md-0">
-        <h5 class="text-uppercase text-light">Owned By:</h5>
-
-        <p class="text-light">
-         This is an site where API is not fetched on any Site ,this site is web scrapped and we created an api on it,this is site supervised under our Mobile App Lab And it is developed by  Nifaz and Samuel 
-        </p>
-      </div>
-
-      <!--Grid column-->
-
-      <!--Grid column-->
-     
-      <!--Grid column-->
-    </div>
-    <!--Grid row-->
-  </div>
-  <!-- Grid container -->
-
-  <!-- Copyright -->
-  <div class="text-center p-3 text-light" style="background-color: black;" >
-    © 2022 Copyright:
-    <a class="text-light" href="">Nifaz & </a>
-    <a class="text-light" href="">Renjith </a>
-  </div>
-  <!-- Copyright -->
-</footer>
 
 
 </body>
